@@ -16,9 +16,8 @@ def encryption(plain_txt, key=KEY):
     else:
         pass
 
-    encrypted_text = cipher.encrypt(bytes_from_dict)
-    print(len(encrypted_text))
-
+    return cipher.encrypt(bytes_from_dict)
+    
 
 def decryption(encrypted_data, key=KEY):
     cipher = AES.new(key, AES.MODE_CBC, IV)
