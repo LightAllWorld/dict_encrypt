@@ -1,2 +1,2 @@
 # file_encrypt
-This is a python repository about file encrypt and decrypt.
+This can encrypt and decrypt about dictionary data in python.
